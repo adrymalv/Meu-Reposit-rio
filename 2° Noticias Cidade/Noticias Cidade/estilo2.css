@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(imagens/fundo.png) repeat-x;
+}
+
+/*-------------------------------------------CABEÇALHO-------------------------------------------*/
+
+/*Estilizando o menu*/
+#container {
+    width: 790px;
+    margin: 0 auto;
+}
+
+#topo {
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+    padding-top: 25px;
+}
+
+.logo {
+    background: url(imagens/logo.png) no-repeat left top;
+    width: 152px;
+    height: 66px;
+    text-indent: -3000px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/*Estilizando o menu*/
+
+
+/*Estilizando o menu de navegação horizontal*/
+#topo ul {
+    margin-top: 30px;
+    background: #b10333;
+    float: left;
+}
+#topo li {
+    float: left;
+}
+
+#topo a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.5em;
+    text-decoration: none;
+    color: #fff;
+    background: url(imagens/divisor.png) no-repeat left center;
+}
+
+#topo ul.primeiro a {
+    background: none;
+}
+
+#topo ul a:hover {
+    background: #69001d;
+}
+
+body.home #navegação a#home,
+body.brasil #navegação a#brasil,
+body.internacional #navegação a#internacional,
+body.fotos #navegação a#fotos
+{
+    background: #69001d;
+    cursor: text;
+}
+
+/*Estilizando o menu de navegação horizontal*/
+
+/*-------------------------------------------CABEÇALHO-------------------------------------------*/
+
+/*-------------------------------------------Criando 3 colunas-------------------------------------------*/
+#conteudo {
+    margin-top: 50px;
+}
+
+#tres-colunas #primario { 
+    width: 400px;
+    margin: 0 -500px 20px 0px;
+    float: left;
+}
+
+#duas-colunas #primario {
+    width: 640px;
+    margin: 0 145px 20px 190px;
+    float: right;
+}
+
+#uma-coluna #primario {
+    width: 750px;
+    margin: 0 0 20px 0px;
+    float: left;
+}
+
+#secundario {
+    width: 400px;
+    margin: 0 -20px 20px 15px;
+    float: right;
+}
+
+/*Criando a lateral*/
+#lateral {
+    width: 240px;
+    margin: 0 0 20px -250px;
+    float: left;
+}
+
+.caixa {
+    background: #f3f3f3 url(imagens/fundo-caixa.png);
+    margin: 10px 0;
+    padding: 5px 5px 5px;
+}
+
+h2 {
+    color: white;
+    background: #294c71;
+    padding: 5px;
+    font-size: 1.2em;
+}
+
+.caixa-conteudo {
+    background: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/*Criando caixa de entrevistas*/
+
+#lateral ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#lateral ul li {
+    margin: 14px 5px;
+}
+
+#lateral a:hover {
+    color: rgb(152, 152, 152);
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 15px;
+    background: url(imagens/marcador.png) no-repeat left center;
+}
+/*Criando caixa de entrevistas*/
+
+/*Criando caixa news*/
+#email {
+    width: 100%;
+    height: 30px;
+    cursor: pointer;
+}
+
+#botao {
+    width: 101.5%;
+    height: 30px;
+    font-size: 1em;
+    border: none;
+    color: white;
+    background: #b10333;
+}
+/*Criando caixa news*/
+
+/*Criando a lateral*/
+
+/*Criando os conteudos*/
+img {
+    border: 2px solid #cbcbcb;
+    width: 98%;
+}
+
+.h3 {
+    display: inline;
+    padding: 3px;
+    font-size: 0.8em;
+    margin-top: 1.5px;
+    color: white;
+    background: #b10333;
+}
+
+/*Criando os conteudos*/
+
+/*Criando a lista de noticias*/
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias a img {
+    border: none;
+    width: 80px;
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias a {
+    text-decoration: none;
+    font-size: 0.8em;
+    color: rgb(119, 119, 119);
+}
+
+#lista-noticias h3 {
+    color: #4177b1;
+}
+
+#lista-noticias li:hover {
+    background: #c6c6c6a1;
+}
+
+/*Criando a lista de noticias*/
+
+/*-------------------------------------------Criando 3 colunas-------------------------------------------*/
+
+/*-----rodape----*/
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
